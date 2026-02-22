@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "57130af971476502a430",
+  "position": {
+    "x": 174.99122012532115,
+    "y": 422.14376813737272,
+    "z": 22004,
+    "height": 301.2735439270993,
+    "width": 301.2735439270993,
+    "tabOrder": 22004
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Joins"
+                    }
+                  },
+                  "Property": "Join expression"
+                }
+              },
+              "queryRef": "Joins.Join expression",
+              "nativeQueryRef": "Join expression"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
