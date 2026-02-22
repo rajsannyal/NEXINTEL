@@ -10,7 +10,7 @@ annotation PBI_QueryOrder = ["Calculated tables & Parameters","Calculations","Co
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBI_ProTooling = ["DevMode"]
+annotation PBI_ProTooling = ["DevMode","TMDLView_Desktop"]
 
 ref table 'Calculated tables & Parameters'
 ref table Calculations
