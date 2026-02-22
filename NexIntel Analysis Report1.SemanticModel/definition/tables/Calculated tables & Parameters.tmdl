@@ -1,10 +1,6 @@
 table 'Calculated tables & Parameters'
 	lineageTag: 7b234f9f-a2a6-4b50-9361-f735398d3100
 
-	measure 'Row Count' = COUNTROWS('Calculated tables & Parameters')
-		formatString: 0
-		lineageTag: d5eb5c9c-4652-4091-aacd-5dc32fd17df8
-
 	column ReportName
 		dataType: string
 		lineageTag: a93d9a3e-38eb-4204-bc89-155c9ca3696d

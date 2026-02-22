@@ -1,9 +1,9 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
-  "name": "dedf7922ab0d6aad9554",
+  "name": "f0cec3c4062a1d8953da",
   "position": {
-    "x": 985.0021256538696,
-    "y": 232.72028243470547,
+    "x": 948.92146171050445,
+    "y": 268.80094637807065,
     "z": 22001,
     "height": 301.2735439270993,
     "width": 301.2735439270993,
@@ -13,21 +13,21 @@
     "visualType": "cardVisual",
     "query": {
       "queryState": {
-        "Rows": {
+        "Data": {
           "projections": [
             {
               "field": {
-                "Column": {
+                "Measure": {
                   "Expression": {
                     "SourceRef": {
                       "Entity": "Calculations"
                     }
                   },
-                  "Property": "Calculation expression"
+                  "Property": "Estimated_Benefit"
                 }
               },
-              "queryRef": "Calculations.Calculation expression",
-              "nativeQueryRef": "Calculation expression"
+              "queryRef": "Calculations.Estimated_Benefit",
+              "nativeQueryRef": "Estimated_Benefit"
             }
           ]
         }
