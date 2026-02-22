@@ -5290,7 +5290,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "Report Name": {
+			          "Page Name": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -5300,7 +5300,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "Page Name": {
+			          "Report Name": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
